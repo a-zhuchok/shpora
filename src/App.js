@@ -21,8 +21,9 @@ function App() {
   return (
     <div class="container">
     <Menu/>
+   
     <Routes>
-      <Route path="/" element={<Content/>} />
+      <Route path="*" element={<Content/>} />
       <Route path="/ProjectStructure" element={<ProjectStructure/>} />
       <Route path="/VirtualDOM" element={<VirtualDOM/>} />
       <Route path="/Components" element={<Components/>} />
